@@ -6,14 +6,14 @@ Dir["#{Rails.root}/spec/support/factories/*.rb"].each {|f| require f}
 
 puts "Beginning database seed..."
 
-if Manager.where(email: "manager@example.com").empty?
-  puts "Creating demo manager (manager@example.com)..."
-  manager = FactoryGirl.create(:manager, 
-    :email                 => 'manager@example.com', 
-    :password              => 'manager',
-    :password_confirmation => 'manager')
-else
-  puts "Demo manager (manager@example.com) already exists."
-end
+# if Manager.where(email: "manager@example.com").empty?
+#   puts "Creating demo manager (manager@example.com)..."
+#   manager = FactoryGirl.create(:manager,
+#     :email                 => 'manager@example.com',
+#     :password              => 'manager',
+#     :password_confirmation => 'manager')
+# else
+#   puts "Demo manager (manager@example.com) already exists."
+# end
 
 puts "Completed database seed."
