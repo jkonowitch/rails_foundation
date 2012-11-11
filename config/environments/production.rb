@@ -1,4 +1,4 @@
-APPNAME::Application.configure do
+IdeaWell::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # Configure ActionMailer for Heroku and SendGrid.

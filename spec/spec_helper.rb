@@ -40,7 +40,7 @@ Spork.each_run do
 
   # Require test helper modules.
   RSpec.configure do |config|
-    config.include APPNAME::TestHelpers
+    config.include IdeaWell::TestHelpers
   end
 
   # Reload routes.

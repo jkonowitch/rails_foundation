@@ -1,2 +1,2 @@
-module APPNAME::TestHelpers
+module IdeaWell::TestHelpers
 end
